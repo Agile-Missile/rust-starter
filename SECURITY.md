@@ -8,4 +8,4 @@ Remediation of security vulnerabilities is prioritized by the project team. The 
 
 ## Security advisories
 
-The project team is committed to transparency in the security issue disclosure process. We announce security issues via [project Github Release notes](https://github.com/omarabid/rust-starter/releases).
+The project team is committed to transparency in the security issue disclosure process. We announce security issues via [project Github Release notes](https://github.com/Agile-Missile/rust-starter/releases).

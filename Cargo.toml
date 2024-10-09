@@ -1,9 +1,9 @@
 [package]
 name = "rust-starter"
-version = "2.0.0-beta"
-authors = ["Abid Omar <contact@omarabid.com>"]
+version = "1.0.0"
+authors = ["Shunquan Wang <shunqwang@gmail.com>"]
 edition = "2021"
-repository = "https://github.com/omarabid/rust-starter"
+repository = "https://github.com/Agile-Missile/rust-starter"
 readme = "README.md"
 license = "MIT"
 keywords = ["cli", "starter"]

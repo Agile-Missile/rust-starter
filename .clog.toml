@@ -1,5 +1,5 @@
 [clog]
-repository = "https://github.com/omarabid/rust-starter"
+repository = "https://github.com/Agile-Missile/rust-starter"
 outfile = "CHANGELOG.md"
 from-latest-tag = true
 

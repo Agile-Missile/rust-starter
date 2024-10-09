@@ -1,7 +1,7 @@
 [package]
 name = "cli"
 version = "2.0.0"
-authors = ["Abid Omar <contact@omarabid.com>"]
+authors = ["Shunquan Wang <shunqwang@gmail.com>"]
 description = "CLI interface for rust-starter"
 edition = "2021"
 
