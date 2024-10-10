@@ -12,7 +12,7 @@ Rust Starter aims to provide high quality components to bootstrap your Rust CLI 
 """
 
 [workspace]
-members = ["utils", "cli", "core"]
+members = ["packages/utils", "packages/cli", "packages/core"]
 
 [features]
 nightly = ["utils/nightly"]
@@ -21,9 +21,9 @@ journald = ["utils/journald"]
 syslog = ["utils/syslog"]
 
 [dependencies]
-utils = { path = "utils" }
-cli = { path = "cli" }
-core = { path = "core" }
+utils = { path = "packages/utils" }
+cli = { path = "packages/cli" }
+core = { path = "packages/core" }
 human-panic = "2.0.0"
 better-panic = "0.3.0"
 log = "0.4.22"
