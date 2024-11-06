@@ -21,6 +21,13 @@ fn test_version() {
 }
 
 #[test]
+fn test_error() {
+    let expected_error = "Error: Error { msg: \"IO Error\", source: Some(Os { code: 2, kind: NotFound, message: \"No such file or directory\" }) }\n";
+    let mut cmd = Command::cargo_bin("rust-starter").expect("Calling binary failed");
+    cmd.arg("error").assert().stderr(expected_error);
+}
+
+#[test]
 fn test_hazard_exit_code() {
     let mut cmd = Command::cargo_bin("rust-starter").expect("Calling binary failed");
     cmd.arg("hazard").assert().code(0);
