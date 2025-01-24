@@ -31,8 +31,9 @@ fn main() -> Result<()> {
     let config_contents = include_str!("resources/default_config.toml");
     AppConfig::init(Some(config_contents))?;
 
+
     // Match Commands
-    cli::cli_match()?;
+    cli::cmd_handler()?;
 
     Ok(())
 }

@@ -78,7 +78,7 @@ enum CompletionSubcommand {
     Fish,
 }
 
-pub fn cli_match() -> Result<()> {
+pub fn cmd_handler() -> Result<()> {
     // Parse the command line arguments
     let cli = Cli::parse();
 
